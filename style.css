@@ -15,6 +15,8 @@
   --dark-yellow: #f4cb38;
 
   /* Fonts */
+  --base-font: Open sans, sans-serif;
+  --title-font: Merriweather, serif;
 
   /* Font-size */
   --fs-14: 0.875rem;
