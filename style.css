@@ -19,6 +19,9 @@
   --title-font: Merriweather, serif;
 
   /* Font-size */
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
 }
 
 body {
