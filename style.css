@@ -12,7 +12,3 @@
   --fs-24: 1.5rem;
   --fs-30: 1.875rem;
 }
-
-body {
-  font-family: var(--base-font);
-}
