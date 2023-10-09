@@ -14,8 +14,9 @@
 
   /* Font-size */
   --fs-14: 0.875rem;
-  --fs-16: 1rem;
 
+  --fs-24: 1.5rem;
+}
 
 body {
   font-family: var(--base-font);
