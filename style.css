@@ -19,3 +19,7 @@
   --fs-50: 3.125rem;
   --fs-72: 4.5rem;
 }
+
+body {
+  font-family: var(--base-font);
+}
