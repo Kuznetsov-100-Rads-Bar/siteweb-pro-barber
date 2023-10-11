@@ -2,12 +2,9 @@
   /* palette */
 
   /* Fonts */
-  --base-font: Open sans, sans-serif;
 
   /* Font-size */
   --fs-14: 0.875rem;
-
-  --fs-42: 2.625rem;
 }
 
 body {
