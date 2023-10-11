@@ -21,3 +21,7 @@
   --fs-36: 2.25rem;
   --fs-42: 2.625rem;
 }
+
+body {
+  font-family: var(--base-font);
+}
