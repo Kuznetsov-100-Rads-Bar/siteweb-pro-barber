@@ -30,7 +30,7 @@
   --fs-36: 2.25rem;
   --fs-42: 2.625rem;
   --fs-50: 3.125rem;
-  --fs-72: 4.5rem;
+  --fs-72: 4.5rem; /* Exemple : 72/16 => 4.5rem */
 }
 
 body {
