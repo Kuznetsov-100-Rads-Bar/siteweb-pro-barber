@@ -114,5 +114,6 @@ body {
     align-self: baseline;
     background: none;
     border: none;
+    cursor: pointer;
   }
 }
