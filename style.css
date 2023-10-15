@@ -88,3 +88,35 @@ body {
     padding: 6px;
   }
 }
+
+@media (max-width: 525px) {
+  .main-nav {
+    display: flex;
+    order: 1;
+  }
+  .main-nav ul {
+    padding: 52px 0 20px;
+    display: none;
+    flex-direction: column;
+  }
+  .main-nav ul li {
+    margin: 6px 0;
+  }
+  .main-nav.active ul {
+    display: flex;
+  }
+  .nav-toggler {
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    align-self: baseline;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .nav-toggler img {
+    width: 20px;
+  }
+}
