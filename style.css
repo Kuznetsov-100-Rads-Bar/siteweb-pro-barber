@@ -66,6 +66,16 @@ body {
   text-underline-offset: 4px;
 }
 
+.main-nav a:hover {
+  background-color: var(--main-black);
+  color: var(--main-yellow);
+}
+
+/* On cache le toggler */
+.nav-toggler {
+  display: none;
+}
+
 .main-nav img {
   width: 20px;
 }
