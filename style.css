@@ -116,4 +116,7 @@ body {
     border: none;
     cursor: pointer;
   }
+  .nav-toggler img {
+    width: 20px;
+  }
 }
