@@ -111,5 +111,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: auto;
+    align-self: baseline;
   }
 }
