@@ -80,3 +80,10 @@ body {
 .main-nav img {
   width: 20px;
 }
+
+/* MEDIA QUERIES NAVIGATION */
+@media (max-width: 1024px) {
+  .main-nav a {
+    font-size: var(--fs-14);
+  }
+}
