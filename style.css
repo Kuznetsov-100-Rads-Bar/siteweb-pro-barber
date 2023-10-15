@@ -85,5 +85,6 @@ body {
 @media (max-width: 1024px) {
   .main-nav a {
     font-size: var(--fs-14);
+    padding: 6px;
   }
 }
