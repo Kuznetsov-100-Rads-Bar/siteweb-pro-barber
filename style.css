@@ -105,7 +105,4 @@ body {
   .main-nav.active ul {
     display: flex;
   }
-  .nav-toggler {
-    order: 2;
-  }
 }
