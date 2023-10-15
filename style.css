@@ -50,6 +50,12 @@ body {
   border-bottom: 1px solid var(--main-black);
 }
 
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
 .main-nav img {
   width: 20px;
 }
