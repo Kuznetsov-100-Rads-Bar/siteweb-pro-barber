@@ -107,6 +107,5 @@ body {
   }
   .nav-toggler {
     order: 2;
-    display: flex;
   }
 }
