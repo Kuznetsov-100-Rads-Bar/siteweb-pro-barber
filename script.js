@@ -2,7 +2,7 @@
 
 const nav = document.querySelector(".main-nav");
 const navToggler = document.querySelector(".nav-toggler");
-const togglerImg = navToggler.querySelector("img");
+
 
 
 // L'écoute d'un événement sur le bouton
