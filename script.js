@@ -15,8 +15,7 @@ function toggleNav() {
     navToggler.ariaExpanded = "true";
   }
   else {
-    togglerImg.src = "ressources/hamburger.svg";
-    navToggler.ariaExpanded = "false";
+
   }
 }
 
