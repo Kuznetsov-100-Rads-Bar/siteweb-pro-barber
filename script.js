@@ -9,7 +9,7 @@ const navLinks = document.querySelectorAll(".main-nav a");
 navToggler.addEventListener("click", toggleNav);
 
 function toggleNav() {
-  nav.classList.toggle("active");
+
   if (togglerImg.src.includes("hamburger")) {
 
 
