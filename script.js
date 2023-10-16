@@ -5,7 +5,7 @@
 
 
 
-
+// L'écoute d'un événement sur le bouton
 
 
 function toggleNav() {
