@@ -6,7 +6,7 @@
 
 
 // L'écoute d'un événement sur le bouton
-
+navToggler.addEventListener("click", toggleNav);
 
 function toggleNav() {
 
