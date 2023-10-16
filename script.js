@@ -12,9 +12,11 @@ function toggleNav() {
   nav.classList.toggle("active");
   if (togglerImg.src.includes("hamburger")) {
     togglerImg.src = "ressources/cross.svg";
+    navToggler.ariaExpanded = "true";
   }
   else {
     togglerImg.src = "ressources/hamburger.svg";
+    navToggler.ariaExpanded = "false";
   }
 }
 
