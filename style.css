@@ -146,6 +146,19 @@ body {
   font-weight: 300;
 }
 
+.hero-link {
+  min-width: 155px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.hero-link-1 {
+  background-color: var(--main-yellow);
+}
+.hero-link-2 {
+  background-color: var(--main-white);
+}
+
 .hero img {
   width: 20px;
 }
