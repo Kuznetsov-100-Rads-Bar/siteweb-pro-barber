@@ -150,6 +150,9 @@ body {
   min-width: 155px;
   padding: 8px 12px;
   border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-link-1 {
@@ -157,6 +160,8 @@ body {
 }
 .hero-link-2 {
   background-color: var(--main-white);
+  color: var(--main-black);
+  margin-left: 12px;
 }
 
 .hero img {
