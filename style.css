@@ -21,7 +21,7 @@
   --title-font: Merriweather, serif;
 
   /* Font-size */
-
+  --fs-14: 0.875rem;
   --fs-16: 1rem; /* --fs-16: 1rem => ça veut dire 1rem c'est 16px */
 }
 
