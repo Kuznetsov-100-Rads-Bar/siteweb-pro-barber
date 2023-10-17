@@ -139,6 +139,13 @@ body {
   font-weight: 700;
 }
 
+.main-subtitle {
+  font-size: var(--fs-30);
+  margin-bottom: 28px;
+  color: var(--shade-white);
+  font-weight: 300;
+}
+
 .hero img {
   width: 20px;
 }
