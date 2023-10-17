@@ -132,6 +132,13 @@ body {
   text-align: center;
 }
 
+.main-title {
+  color: var(--main-white);
+  font-family: var(--title-font);
+  font-size: var(--fs-72);
+  font-weight: 700;
+}
+
 .hero img {
   width: 20px;
 }
