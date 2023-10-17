@@ -37,7 +37,7 @@ body {
   font-family: var(--base-font);
 }
 
-/*********************************************************/
+/**************************************************************/
 
 /* NAVIGATION */
 .main-nav {
@@ -119,4 +119,15 @@ body {
   .nav-toggler img {
     width: 20px;
   }
+}
+
+/* HERO */
+.hero {
+  min-height: 750px;
+  padding-top: 200px;
+  background-image: url(ressources/hero-background.jpg);
+}
+
+.hero img {
+  width: 20px;
 }
