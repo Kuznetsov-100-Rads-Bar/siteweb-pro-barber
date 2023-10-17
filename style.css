@@ -126,6 +126,8 @@ body {
   min-height: 750px;
   padding-top: 200px;
   background-image: url(ressources/hero-background.jpg);
+  background-size: cover;
+  background-position: 50% 20%; /* 50% => axe X, 20% => axe Y */
 }
 
 .hero img {
