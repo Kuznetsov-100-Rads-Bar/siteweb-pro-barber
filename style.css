@@ -239,3 +239,16 @@ body {
     pointer-events: none;
   }
 }
+
+@media (max-width: 525px) {
+  .hero {
+    padding-top: 125px;
+    min-height: 500px;
+  }
+  .hero-link {
+    padding: 6px;
+  }
+  .main-title {
+    font-size: var(--fs-24);
+  }
+}
