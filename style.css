@@ -230,6 +230,9 @@ body {
     background-color: var(--main-black);
     border: 1px solid var(--main-white);
     position: absolute;
+    bottom: 0;
+    left: 50%;
+    /* transform: translateX(-50%); */
   }
   .push-down-hero img {
     width: 20px;
