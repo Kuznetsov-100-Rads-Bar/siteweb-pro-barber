@@ -229,6 +229,7 @@ body {
     border-radius: 50%;
     background-color: var(--main-black);
     border: 1px solid var(--main-white);
+    position: absolute;
   }
   .push-down-hero img {
     width: 20px;
