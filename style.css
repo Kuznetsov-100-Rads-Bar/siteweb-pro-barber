@@ -212,4 +212,8 @@ body {
   .main-subtitle {
     font-size: var(--fs-24);
   }
+  .hero-link {
+    min-width: 110px;
+    padding: 8px 6px;
+  }
 }
