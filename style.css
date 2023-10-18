@@ -230,4 +230,8 @@ body {
     background-color: var(--main-black);
     border: 1px solid var(--main-white);
   }
+  .push-down-hero img {
+    width: 20px;
+    pointer-events: none;
+  }
 }
