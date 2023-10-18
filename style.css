@@ -220,4 +220,8 @@ body {
   .hero-link img {
     display: none;
   }
+  .push-down-hero {
+    display: flex;
+    justify-content: center;
+  }
 }
