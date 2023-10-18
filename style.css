@@ -244,7 +244,8 @@ il servait à gérer les images en grand!
     background-color: var(--main-black);
     border: 1px solid var(--main-white);
     position: absolute;
-    bottom: 30px;
+    bottom: 0;
+    margin-bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
   }
