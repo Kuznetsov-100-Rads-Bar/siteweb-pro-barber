@@ -199,6 +199,7 @@ body {
 }
 
 /*
+il servait à gérer les images en grand!
 .hero img {
   width: 20px;
 }
@@ -268,3 +269,5 @@ body {
     font-size: var(--fs-20);
   }
 }
+
+/**********/
