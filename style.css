@@ -206,6 +206,19 @@ body {
 
 /* MEDIA QUERIES HERO */
 @media (max-width: 1024px) {
+  .hero {
+    min-height: 600px;
+    padding-top: 145px;
+  }
+  .main-title {
+    font-size: var(--fs-50);
+  }
+  .main-subtitle {
+    font-size: var(--fs-30);
+  }
+}
+
+@media (max-width: 750px) {
   .main-title {
     font-size: var(--fs-36);
   }
