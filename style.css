@@ -215,5 +215,9 @@ body {
   .hero-link {
     min-width: 110px;
     padding: 8px 6px;
+    font-size: var(--fs-14);
+  }
+  .hero-link img {
+    display: none;
   }
 }
