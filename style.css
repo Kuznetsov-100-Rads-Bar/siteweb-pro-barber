@@ -120,6 +120,7 @@ body {
     width: 20px;
   }
 }
+/**********/
 
 /* HERO */
 .hero {
@@ -133,10 +134,10 @@ body {
 }
 
 .main-title {
-  color: var(--main-white);
   font-family: var(--title-font);
   font-size: var(--fs-72);
-  font-weight: 700;
+  color: var(--main-white);
+  font-weight: 900;
 }
 
 .main-subtitle {
@@ -197,6 +198,15 @@ body {
   display: none;
 }
 
+/*
 .hero img {
   width: 20px;
+}
+*/
+
+/* MEDIA QUERIES HERO */
+@media (max-width: 1024px) {
+  .main-title {
+    font-size: var(--fs-36);
+  }
 }
