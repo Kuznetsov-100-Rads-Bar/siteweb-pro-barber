@@ -209,4 +209,7 @@ body {
   .main-title {
     font-size: var(--fs-36);
   }
+  .main-subtitle {
+    font-size: var(--fs-24);
+  }
 }
