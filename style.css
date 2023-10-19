@@ -427,3 +427,19 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   visibility: visible;
   z-index: 10;
 }
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid var(--main-black);
+  background-color: var(--main-white);
+}
