@@ -23,7 +23,7 @@ function toggleNav() {
 
 /* Fonctionnalité : les 3 petits points qui permet de se déplacer dans le slider (slideshow) */
 const slideshowImages = document.querySelectorAll(".slideshow-images-container img");
-const fadeSlideDots = document.querySelectorAll(".fade-slide-dots");
+const fadeSlideDots = document.querySelectorAll(".fade-slide-dots .dot");
 
 fadeSlideDots.forEach(dot => dot.addEventListener("click", fadeSlideshow));
 
@@ -42,6 +42,7 @@ function fadeSlideshow(e) {
   else {
 
   }
+
   slideshowImages[currentFadeIndex - 1].classList.add("active");
   fadeSlideDots[currentFadeIndex - 1].classList.add("active");
   fadeSlideDots[currentFadeIndex - 1].ariaDisabled = "true";
