@@ -27,6 +27,12 @@ const fadeSlideDots = document.querySelectorAll(".fade-slide-dots");
 
 fadeSlideDots.forEach(dot => dot.addEventListener("click", fadeSlideshow));
 
+let currentFadeIndex = 1;
+let fadeIntervalID;
 
 function fadeSlideshow(e) {
+
+  slideshowImages[currentFadeIndex - 1].classList.remove("active");
+  fadeSlideDots[currentFadeIndex - 1].classList.remove("active");
+  fadeSlideDots[currentFadeIndex - 1].ariaDisabled = "false";
 }
