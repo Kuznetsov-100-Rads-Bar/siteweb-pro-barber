@@ -42,4 +42,7 @@ function fadeSlideshow(e) {
   else {
 
   }
+  slideshowImages[currentFadeIndex - 1].classList.add("active");
+  fadeSlideDots[currentFadeIndex - 1].classList.add("active");
+  fadeSlideDots[currentFadeIndex - 1].ariaDisabled = "true";
 }
