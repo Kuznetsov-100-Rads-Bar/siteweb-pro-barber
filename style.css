@@ -52,6 +52,18 @@ body {
   text-underline-offset: 6px;
 }
 
+/* on gère l'image */
+.section-title img {
+  width: 50px;
+  margin-left: 8px;
+}
+
+.section-subtitle {
+  font-size: var(--fs-20);
+  margin-bottom: 72px;
+  text-align: center;
+}
+
 /**************************************************************/
 
 /* NAVIGATION */
