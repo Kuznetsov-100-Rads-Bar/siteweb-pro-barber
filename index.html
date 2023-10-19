@@ -79,18 +79,18 @@
             quam ipsa molestiae minima aliquam vel asperiores enim facilis quia labore, quaerat beatae iure sapiente!
           </p>
         </div>
-        <div class="about-slideshow">
-          <div class="slideshow-container">
+        <div class="about-slideshow" role="region" aria-roledescription="carousel" aria-label="coupe de cheveux">
+          <div class="slideshow-container" role="group">
             <img src="ressources/slide-1.jpg" aria-roledescription="slide"
               alt="coiffeur coupant des cheveux avec un peigne et un ciseau" class="active">
             <img src="ressources/slide-2.jpg" aria-roledescription="slide" alt="coiffeur rasant une nuque">
             <img src="ressources/slide-3.jpg" aria-roledescription="slide"
               alt="coiffeur utilisant un rasoir électrique">
           </div>
-          <div class="dots fade-slide-dots">
-            <button class="dot active"></button>
-            <button class="dot"></button>
-            <button class="dot"></button>
+          <div class="dots fade-slide-dots" role="group" aria-label="Boutons de controle">
+            <button class="dot active" data-fadeIndex="1" aria-label="Montrer l'image 1"></button>
+            <button class="dot" data-fadeIndex="2" aria-label="Montrer l'image 2"></button>
+            <button class="dot" data-fadeIndex="3" aria-label="Montrer l'image 3"></button>
           </div>
         </div>
       </div>
