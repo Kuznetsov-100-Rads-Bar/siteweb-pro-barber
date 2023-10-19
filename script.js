@@ -32,6 +32,9 @@ let fadeIntervalID;
 
 function fadeSlideshow(e) {
 
+  slideshowImages[currentFadeIndex - 1].classList.remove("active");
+  fadeSlideDots[currentFadeIndex - 1].classList.remove("active");
+  fadeSlideDots[currentFadeIndex - 1].ariaDisabled = "false";
 
   if (e) {
     currentFadeIndex = e.target.getAttribute("data-fadeIndex");
