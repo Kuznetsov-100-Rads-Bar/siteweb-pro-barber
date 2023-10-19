@@ -128,6 +128,18 @@ body {
   }
 }
 
+@media (max-width: 525px) {
+  .section-title {
+    font-size: var(--fs-20);
+  }
+  .section-subtitle {
+    font-size: var(--fs-14);
+  }
+  .heading-h3 img {
+    width: 20px;
+  }
+}
+
 /**************************************************************/
 
 /* NAVIGATION */
