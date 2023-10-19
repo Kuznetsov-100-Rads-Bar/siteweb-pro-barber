@@ -39,6 +39,15 @@ body {
 
 /**************************************************************/
 
+/* GLOBAL UTILITY CLASSES */
+.section-title {
+  font-family: var(--title-font);
+  font-size: var(--fs-36);
+  margin-bottom: 6px;
+}
+
+/**************************************************************/
+
 /* NAVIGATION */
 .main-nav {
   position: fixed;
