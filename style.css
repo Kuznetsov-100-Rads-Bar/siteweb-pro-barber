@@ -113,6 +113,21 @@ body {
   }
 }
 
+@media (max-width: 750px) {
+  .section-title {
+    font-size: var(--fs-24);
+  }
+  .section-title img {
+    width: 30px;
+  }
+  .section-subtitle {
+    font-size: var(--fs-16);
+  }
+  .heading-h3 {
+    font-size: var(--fs-16);
+  }
+}
+
 /**************************************************************/
 
 /* NAVIGATION */
