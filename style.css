@@ -165,7 +165,7 @@ body {
   text-decoration-color: var(--main-black);
   text-underline-offset: 4px;
   position: relative;
-  bottom: 2px;
+  bottom: 2px; /* Petite retouche qui permet de ne pas rajouter de contenu ! */
 }
 
 .hero-link img {
@@ -200,6 +200,7 @@ body {
 
 /*
 il servait à gérer les images en grand!
+C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
 .hero img {
   width: 20px;
 }
