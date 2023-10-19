@@ -421,3 +421,9 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   visibility: hidden;
   transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
 }
+
+.about-slideshow img.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
