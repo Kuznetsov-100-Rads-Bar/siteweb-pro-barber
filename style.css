@@ -453,9 +453,7 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   .about {
     padding: 50px 20px 100px;
   }
-  .about-content {
-    flex-direction: column;
-  }
+
   .about-text {
     width: 100%;
     margin-right: 0;
