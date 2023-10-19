@@ -165,7 +165,7 @@ body {
   text-decoration-color: var(--main-black);
   text-underline-offset: 4px;
   position: relative;
-  bottom: 2px; /* Petite retouche qui permet de ne pas rajouter de contenu ! */
+  bottom: 2px; /* Petite retouche qui permet de ne pas rajouter de contenu ! avec position en relative et le botton !! */
 }
 
 .hero-link img {
