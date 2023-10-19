@@ -443,3 +443,29 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   border: 1px solid var(--main-black);
   background-color: var(--main-white);
 }
+
+.dot.active {
+  background-color: var(--main-black);
+}
+
+/* MEDIA QUERIES ABOUT */
+@media (max-width: 1024px) {
+  .about {
+    padding: 50px 20px 100px;
+  }
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-text {
+    width: 100%;
+    margin-right: 0;
+  }
+  .about-slideshow {
+    width: 80%;
+  }
+  .slideshow-images-container {
+    margin: 72px auto 12px;
+  }
+}
