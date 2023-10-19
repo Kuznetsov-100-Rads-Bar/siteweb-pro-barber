@@ -21,3 +21,6 @@ function toggleNav() {
 }
 
 
+/* Fonctionnalité : les 3 petits points qui permet de se déplacer dans le slider (slideshow) */
+const slideshowImages = document.querySelectorAll("slideshow-images-container img");
+const fadeSlideDots = document.querySelectorAll(".fade-slide-dots");
