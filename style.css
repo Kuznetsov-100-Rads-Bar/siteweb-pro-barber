@@ -527,4 +527,12 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   text-transform: uppercase;
   color: var(--main-black);
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prestations-category-title img {
+  width: 36px;
+  margin-left: 12px;
 }
