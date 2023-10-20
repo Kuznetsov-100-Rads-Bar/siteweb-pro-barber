@@ -601,3 +601,7 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   padding: 50px 10px 150px;
   background-color: var(--main-white);
 }
+
+.team .section-subtitle {
+  margin-bottom: 28px;
+}
