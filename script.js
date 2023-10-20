@@ -38,12 +38,19 @@ function fadeSlideshow(e) {
 
   if (e) {
     currentFadeIndex = e.target.getAttribute("data-fadeIndex");
+    clearInterval(fadeIntervalId);
+    fadeIntervalId = window.setInterval(fadeSlideshow, 3500);
   }
   else {
-
+    currentFadeIndex++;
+    if (currentFadeIndex > slideshowImages.length) {
+      currentFadeIndex = 1;
+    }
   }
 
   slideshowImages[currentFadeIndex - 1].classList.add("active");
   fadeSlideDots[currentFadeIndex - 1].classList.add("active");
   fadeSlideDots[currentFadeIndex - 1].ariaDisabled = "true";
 }
+
+fadeIntervalId = window.setInterval(fadeSlideshow, 3500);
