@@ -492,3 +492,12 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   padding: 50px 10px 150px;
   background-color: var(--main-black);
 }
+
+.prestations .section-title,
+.prestations .section-subtitle {
+  color: var(--main-white);
+}
+
+.prestations .section-title img {
+  transform: rotate(5deg);
+}
