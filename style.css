@@ -501,3 +501,14 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
 .prestations .section-title img {
   transform: rotate(5deg);
 }
+
+.prestations-container {
+  display: flex;
+  justify-content: center;
+}
+
+.prestations-card {
+  width: 100%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 36px 36px 96px;
+}
