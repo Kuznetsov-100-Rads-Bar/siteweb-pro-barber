@@ -484,3 +484,11 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
     width: 100%;
   }
 }
+
+/**********/
+
+/* PRESTATIONS */
+.prestations {
+  padding: 50px 10px 150px;
+  background-color: var(--main-black);
+}
