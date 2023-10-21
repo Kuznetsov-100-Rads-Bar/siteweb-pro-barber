@@ -701,4 +701,5 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
 /* TESTIMONIALS : TÉMOIGNAGE */
 .testimonial-section {
   background-image: url(ressources/testimonial.jpg);
+  background-size: cover;
 }
