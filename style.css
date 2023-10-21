@@ -720,22 +720,6 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   animation: carousel 16s ease-in-out infinite;
 }
 
-.text-slide {
-  flex-shrink: 0;
-  width: 100%;
-  text-align: center;
-  padding: 44px;
-}
-.testimonial-text {
-  font-family: var(--title-font);
-  font-size: var(--fs-36);
-  margin-bottom: 6px;
-}
-
-.testimonial-author {
-  font-size: var(--fs-20);
-}
-
 @keyframes carousel {
   0%,
   20% {
@@ -758,6 +742,22 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   }
 }
 
+.text-slide {
+  flex-shrink: 0;
+  width: 100%;
+  text-align: center;
+  padding: 44px;
+}
+.testimonial-text {
+  font-family: var(--title-font);
+  font-size: var(--fs-36);
+  margin-bottom: 6px;
+}
+
+.testimonial-author {
+  font-size: var(--fs-20);
+}
+
 /* MEDIA QUERIES TESTIMONIALS : TÉMOIGNAGE */
 @media (max-width: 1024px) {
   .text-slideshow-container {
@@ -770,6 +770,31 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
     font-size: var(--fs-30);
   }
   .testimonial-author {
-    font-size: var(--fs-24);
+    font-size: var(--fs-16);
+  }
+}
+
+@media (max-width: 750px) {
+  .text-slideshow-container {
+    max-width: 600px;
+  }
+  .testimonial-text {
+    font-size: var(--fs-20);
+  }
+}
+
+@media (max-width: 525px) {
+  .text-slideshow-container {
+    max-width: 100%;
+    margin: 0;
+  }
+  .text-slide {
+    padding: 36px 0;
+  }
+  .testimonial-section {
+    padding: 44px 2px;
+  }
+  .testimonial-text {
+    font-size: var(--fs-20);
   }
 }
