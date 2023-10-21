@@ -681,3 +681,10 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   margin-left: auto;
   margin-right: 8px;
 }
+
+/* MEDIA QUERIES TEAM */
+@media (max-width: 1024px) {
+  .team {
+    padding: 50px 20px 100px;
+  }
+}
