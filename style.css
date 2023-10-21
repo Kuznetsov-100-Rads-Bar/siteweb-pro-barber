@@ -868,4 +868,26 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   .address-block {
     width: auto;
   }
+  .schedule {
+    margin: 0;
+  }
+
+  .schedule-table,
+  .address-block {
+    max-width: 450px;
+    margin: auto;
+  }
+  .addresses {
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 525px) {
+  .contact {
+    padding: 30px 20px 90px;
+  }
+  .addresses .address-block p,
+  .schedule p {
+    font-size: var(--fs-14);
+  }
 }
