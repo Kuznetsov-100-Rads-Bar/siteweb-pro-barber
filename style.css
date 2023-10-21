@@ -705,3 +705,9 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   background-position: 0 80%; /* 0 => axe X, 80% => axe Y */
   padding: 84px;
 }
+
+.text-slideshow-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
