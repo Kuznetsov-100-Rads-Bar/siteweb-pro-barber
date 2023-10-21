@@ -724,4 +724,11 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   flex-shrink: 0;
   width: 100%;
   text-align: center;
+  padding: 44px;
+}
+
+.testimonial-text {
+  font-family: var(--title-font);
+  font-size: var(--fs-36);
+  margin-bottom: 6px;
 }
