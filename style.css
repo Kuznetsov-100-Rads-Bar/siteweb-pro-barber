@@ -808,6 +808,16 @@ C'est le => .hero-link img{ à la ligne 171 qui s'en charge maintenant !
   width: 350px;
 }
 
+.address-block:nth-child(1) {
+  margin-bottom: 16px;
+}
+
+/* adress-block et le 1er paragraphe ! */
+.address-block p:nth-child(1) {
+  font-size: var(--fs-18);
+  margin-bottom: 12px;
+}
+
 .contact-content {
   display: flex;
   justify-content: center;
