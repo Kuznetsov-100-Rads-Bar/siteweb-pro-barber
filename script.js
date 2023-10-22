@@ -66,3 +66,16 @@ const smoothScrollLinks = [
 
 // Pour chaque liens on execute cette fonction callback qui rajoute un écouteur d'événement addEventListener le "click" qui va lancer, déclencher la fonction handleSmoothScroll
 smoothScrollLinks.forEach(link => link.addEventListener("click", handleSmoothScroll));
+
+function handleSmoothScroll(e) {
+  e.preventDefault();
+  //substring(1) après le 1er caractère
+  const linkHref = e.target.getAttribute("href").substring(1);
+
+  // Juste le nom de l'id (plus pratique)
+  // console.log(linkHref); 
+
+  // tout l'url avec http..etc.
+  // console.log(e.target.href); 
+  window
+}
