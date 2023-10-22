@@ -54,3 +54,12 @@ function fadeSlideshow(e) {
 }
 
 fadeIntervalId = window.setInterval(fadeSlideshow, 3500);
+
+// Smooth scroll links
+
+const smoothScrollLinks = [
+  ...navLinks,
+  ...document.querySelectorAll(".hero a")
+]
+
+console.log(smoothScrollLinks);
