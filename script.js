@@ -85,6 +85,6 @@ function handleSmoothScroll(e) {
   })
   // C'est la distance depuis le haut de la page jusqu'à l'élément
   // console.log(document.getElementById(linkHref).offsetTop);
-  console.log(document.location.pathname);
+  // console.log(document.location.pathname);
   window.history.pushState("", "", `${document.location.pathname}#${linkHref}`)
 }
