@@ -62,4 +62,7 @@ const smoothScrollLinks = [
   ...document.querySelectorAll(".hero a")
 ]
 
-console.log(smoothScrollLinks);
+// console.log(smoothScrollLinks);
+
+// Pour chaque liens on execute cette fonction callback qui rajoute un écouteur d'événement addEventListener le "click" qui va lancer, déclencher la fonction handleSmoothScroll
+smoothScrollLinks.forEach(link => link.addEventListener("click", handleSmoothScroll));
