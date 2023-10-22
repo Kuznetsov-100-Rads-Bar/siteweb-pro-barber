@@ -36,6 +36,11 @@
 body {
   font-family: var(--base-font);
 }
+
+img {
+  height: auto;
+}
+
 /**************************************************************/
 
 /* GLOBAL UTILITY CLASSES */
