@@ -77,5 +77,8 @@ function handleSmoothScroll(e) {
 
   // tout l'url avec http..etc.
   // console.log(e.target.href); 
-  window
+  window.scrollTo({
+    top: document.getElementById(linkHref).offsetTop,
+    behavior: "smooth"
+  })
 }
