@@ -77,8 +77,12 @@ function handleSmoothScroll(e) {
 
   // tout l'url avec http..etc.
   // console.log(e.target.href); 
+
+  // On ajoute une valeur "* 0.95," pour avoir un peu plus d'espace ! 
   window.scrollTo({
-    top: document.getElementById(linkHref).offsetTop,
+    top: document.getElementById(linkHref).offsetTop * 0.95,
     behavior: "smooth"
   })
+  // C'est la distance depuis le haut de la page jusqu'à l'élément
+  console.log(document.getElementById(linkHref).offsetTop);
 }
