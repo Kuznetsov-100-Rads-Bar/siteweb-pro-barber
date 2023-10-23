@@ -10,6 +10,8 @@ Ce site web a été développé en HTML, CSS et JavaScript pour présenter un sa
 - Le dossier `maquette` contient la maquette et le maquettage, les conceptions du site.
 - Les fichiers `index.html`, `style.css` et `script.js` se trouvent à la racine du projet.
 
+## Fonctionnalités
+
 - Présentation du salon de barbier
 - Avec des composants, des animations, avec un effet SmoothScroll avec plusieurs sections différentes.
 - Liste des services proposés
