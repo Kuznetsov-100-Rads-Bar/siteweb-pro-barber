@@ -30,4 +30,4 @@ Veuillez vous référer aux termes et conditions de la formation pour plus d'inf
 
 ---
 
-Fait avec ❤️ par \[Kuznetsov-100-Rads-Bar\]
+Fait avec ❤️ par\[Kuznetsov-100-Rads-Bar\]
