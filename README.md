@@ -18,11 +18,11 @@ Ce site web a été développé en HTML, CSS et JavaScript pour présenter un sa
 
 ## Contributeurs
 
-- **Kuznetsov-100-Rads-Bar**
+- **_Kuznetsov-100-Rads-Bar_**
 
 ## Droits d'auteur et informations
 
-Ce projet a été développé en utilisant les compétences acquises dans le cadre de la formation en ligne [Ecole du Web]. Les droits d'auteur de ce projet appartiennent à **Kuznetsov-100-Rads-Bar** en tant qu'individu qui a suivi la formation et l'a créé en tant que travail personnel. Le dossier "ressources" et le dossier "maquette" inclus dans ce projet ont été fournis dans le cadre de la formation en ligne, tout comme le code source final.
+Ce projet a été développé en utilisant les compétences acquises dans le cadre de la formation en ligne [Ecole du Web]. Les droits d'auteur de ce projet appartiennent à **_Kuznetsov-100-Rads-Bar_** en tant qu'individu qui a suivi la formation et l'a créé en tant que travail personnel. Le dossier "ressources" et le dossier "maquette" inclus dans ce projet ont été fournis dans le cadre de la formation en ligne, tout comme le code source final.
 
 L'utilisation de ces ressources dans le projet est soumise aux termes et conditions de la formation en ligne, ainsi qu'aux droits d'auteur associés. Même si le code source final n'est pas inclus en ligne sur GitHub, il est important de respecter ces droits et conditions.
 
@@ -30,4 +30,4 @@ Veuillez vous référer aux termes et conditions de la formation pour plus d'inf
 
 ---
 
-Fait avec ❤️ par **Kuznetsov-100-Rads-Bar**
+Fait avec ❤️ par **_Kuznetsov-100-Rads-Bar_**
